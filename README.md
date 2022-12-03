@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-HomeWork nr 3
+# goit-markup-hw-02
+HomeWork and project
