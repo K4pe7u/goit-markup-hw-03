@@ -23,8 +23,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <!--navigacja-->
+    <header class="header">
       <nav class="navigation">
         <a class="logo" href="index.html"
           ><span class="logo-web">Web</span>Studio</a
@@ -39,10 +38,11 @@
       </nav>
       <div class="header-contacts">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a href="tel:+48111111111" class="phone-number">+48 111 111 111</a>
       </div>
     </header>
-    <main>
+    <div class="line"></div>
+    <main class="portfolio-main">
       <!--przyciski-->
       <div class="button-portfolio">
         <ul class="button-portfolio-list">
@@ -74,8 +74,8 @@
         </ul>
       </div>
       <!--Menu-->
-      <div>
-        <ul class="portfolio-pages-list">
+      <div class="row-gap">
+        <ul class="portfolio-pages-list first-row">
           <li>
             <img
               src="images/technocrack.jpg"
@@ -83,8 +83,10 @@
               width="370"
               height="294"
             />
-            <span><b>Technocrack</b></span>
-            <span>Strona internetowa</span>
+            <div class="tale">
+              <span><b>Technocrack</b></span>
+              <span>Strona internetowa</span>
+            </div>
           </li>
           <li>
             <img
@@ -93,8 +95,10 @@
               width="370"
               height="294"
             />
-            <span><b>Grafika New Orlean vs Golden Star</b></span>
-            <span>Dizajn</span>
+            <div class="tale">
+              <span><b>Grafika New Orlean vs Golden Star</b></span>
+              <span>Dizajn</span>
+            </div>
           </li>
           <li>
             <img
@@ -103,9 +107,13 @@
               width="370"
               height="294"
             />
-            <span><b>Restauracja Seafood</b></span>
-            <span>Aplikacja</span>
+            <div class="tale">
+              <span><b>Restauracja Seafood</b></span>
+              <span>Aplikacja</span>
+            </div>
           </li>
+        </ul>
+        <ul class="portfolio-pages-list second-row">
           <li>
             <img
               src="images/project-prime.jpg"
@@ -113,8 +121,10 @@
               width="370"
               height="294"
             />
-            <span><b>Projekt Prime</b></span>
-            <span>Marketing</span>
+            <div class="tale">
+              <span><b>Projekt Prime</b></span>
+              <span>Marketing</span>
+            </div>
           </li>
           <li>
             <img
@@ -123,8 +133,10 @@
               width="370"
               height="294"
             />
-            <span><b>Projekt Boxes</b></span>
-            <span>Aplikacja</span>
+            <div class="tale">
+              <span><b>Projekt Boxes</b></span>
+              <span>Aplikacja</span>
+            </div>
           </li>
           <li>
             <img
@@ -133,9 +145,13 @@
               width="370"
               height="294"
             />
-            <span><b>Inspiration has no Borders</b></span>
-            <span>Strona internetowa</span>
+            <div class="tale">
+              <span><b>Inspiration has no Borders</b></span>
+              <span>Strona internetowa</span>
+            </div>
           </li>
+        </ul>
+        <ul class="portfolio-pages-list third-row">
           <li>
             <img
               src="images/magazines.jpg"
@@ -143,8 +159,10 @@
               width="370"
               height="294"
             />
-            <span><b>Magazyn Limited Edition</b></span>
-            <span>Dizajn</span>
+            <div class="tale">
+              <span><b>Magazyn Limited Edition</b></span>
+              <span>Dizajn</span>
+            </div>
           </li>
           <li>
             <img
@@ -153,8 +171,10 @@
               width="370"
               height="294"
             />
-            <span><b>Projekt LAB</b></span>
-            <span>Marketing</span>
+            <div class="tale">
+              <span><b>Projekt LAB</b></span>
+              <span>Marketing</span>
+            </div>
           </li>
           <li>
             <img
@@ -163,23 +183,27 @@
               width="370"
               height="294"
             />
-            <span><b>Growing Business</b></span>
-            <span>Aplikacja</span>
+            <div class="tale">
+              <span><b>Growing Business</b></span>
+              <span>Aplikacja</span>
+            </div>
           </li>
         </ul>
       </div>
     </main>
     <!--stopka-->
     <footer class="main-footer">
-      <a class="logo" href="index.html"
-        ><span class="logo-web">Web</span
-        ><span class="logo-studio">Studio</span></a
-      >
-      <address class="footer-contacts">
-        m. Warszawa, Aleje Jerozolimskie 21
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
-      </address>
+      <div class="container">
+        <a class="logo" href="index.html"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+        <address class="footer-contacts">
+          m. Warszawa, Aleje Jerozolimskie 21
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
