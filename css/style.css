@@ -151,7 +151,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    margin-bottom: 94px;
+    margin-top: -94px;
 }
 .specification-images h2 {
     font-weight: 700;
@@ -247,6 +247,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 9px;
 }
 
 .footer-contacts a {
