@@ -108,7 +108,7 @@ ul {
     text-align: center;
     margin-left: 252px;
     margin-right: 252px;
-    margin-top: 200px;
+    margin-top: 106px;
 }
 .main-question button {
     background: var(--color2);
@@ -122,7 +122,7 @@ ul {
     border-radius: 4px;
     border: none;
     outline: none;
-    margin-bottom: 200px;
+    margin-bottom: 106px;
 }
 .descriptions-list {
     display: flex;
