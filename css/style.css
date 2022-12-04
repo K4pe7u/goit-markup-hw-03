@@ -10,13 +10,15 @@
 }
 * {
   margin: 0;
-  padding: 9;
+  padding: 0;
 }
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--color7);
   background-color: var(--color5);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -32,11 +34,10 @@ ul {
   align-items: center;
   padding-top: 0px;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
-  padding-left: 215px;
 }
 
 .logo {
@@ -54,9 +55,9 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
-  width: 254px;
+
   margin: 0;
-  margin-right: 371px;
+
   margin-left: 93px;
   gap: 46px;
   padding-left: 0px;
@@ -79,6 +80,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 0px;
 }
 .header-contacts a {
   color: var(--color3);
@@ -107,6 +109,9 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  margin-left: 452px;
+  margin-right: 452px;
+  text-align: center;
 }
 
 .main-question button {
@@ -121,12 +126,14 @@ ul {
   border-radius: 4px;
   width: 200px;
   height: 50px;
+  border: none;
+  outline: none;
 }
 .descriptions-list {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 94px;
+
   padding-left: 0px;
 }
 
@@ -152,18 +159,18 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  margin-bottom: 94px;
 }
 .specification-images h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  margin-top: 94px;
 }
 .device-photos {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
+
   padding-left: 0px;
 }
 
@@ -266,8 +273,8 @@ ul {
 
 .portfolio-main {
   height: 1360px;
-  margin-top: 94px;
-  margin-bottom: 94px;
+
+  margin-bottom: 188px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,9 +347,10 @@ ul {
   gap: 4px;
   align-items: flex-start;
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  margin-top: -4px;
 }
 .portfolio-pages-list li {
-  border: 1px solid #eeeeee;
   width: 370px;
   height: 404px;
 }
@@ -361,13 +369,17 @@ ul {
 
 .container {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .phone-number {
   margin-left: 50px;
-  margin-right: 227px;
-  padding: 0;
 }
 
 .line {
