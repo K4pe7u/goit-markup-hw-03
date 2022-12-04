@@ -145,13 +145,16 @@ ul {
     letter-spacing: 0.03em;
     padding-top: 10px;
 }
+.specification-images {
+    margin-top: -94px;
+}
+
 .specification-images > .container {
     display: flex;
     justify-items: center;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    margin-top: -94px;
 }
 .specification-images h2 {
     font-weight: 700;
